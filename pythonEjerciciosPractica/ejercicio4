@@ -1,0 +1,13 @@
+#realiza un programa que lea 2 numeros por teclado y determine los siguientes aspectos (es suficiente con mostrar True or False)
+#Si los dos numeros  son iguales
+#Si los dos numeros son diferentes
+#Si el primero es mayor que el segundo
+#Si el segundo es mayor o igual que el primero
+
+numero1 = input("Ingresa un numero ")
+numero2 = input("Ingresa otro numero ")
+
+print("¿Son los dos numeros iguales?", numero1 == numero2)
+print("¿Son los dos numeros diferentes?", numero1 != numero2)
+print("¿Es el primer numero mayor al segundo?", numero1 > numero2)
+print("¿Es el segundo numero mayor al primero?", numero1 <= numero2)

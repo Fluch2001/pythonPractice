@@ -1,0 +1,6 @@
+#Utilizando operadores logicos, quiero que determines si una cadena de texto introducida por el usuario tiene una longitud mayor o igual a 3
+#Y menor o igual a 12 (Con hacer true/false es suficiente)
+
+cadena = input("Ingresa lo que quieras ")
+
+print('¿La longitud de su texto es mayor o igual que 3 pero menor o igual que 12? \n', len(cadena) >= 3 and len(cadena) <= 12)

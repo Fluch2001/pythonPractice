@@ -1,0 +1,17 @@
+#Define un valor edad y asígnale un valor entero.
+#Muestra su valor por pantalla
+#Define otra variable edad_cadena que contenga el valor de edad como una cadena de caracteres
+#Comprueba el tipo de la nueva variable
+#Utiliza la variable edad que has definido anteriormente y calcula la edad que tendria esa persona en 2035
+
+edad = 23
+
+print(edad)
+
+edad_cadena = str(edad)
+edad_cadena
+
+print(type(edad_cadena))
+
+edad2035 = (2035 - 2025) + edad
+edad2035

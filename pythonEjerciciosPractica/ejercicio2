@@ -1,0 +1,10 @@
+#Al realizar una consulta en un registro hemos recibido unos valores corruptos. Al parecer entrega el nombre y apellido del alumno al revés.
+#¿Que puede hacer para recibir el siguiente mensaje por pantalla?
+#NOMBRE APELLIDO A SACADO UNA NOTA
+
+cadena = "grebnethcul ocsicnarf 01"
+
+stringVuelta = cadena[::-1]
+print (stringVuelta)
+
+print(stringVuelta[3::], "ha sacado un ", stringVuelta[:2])
