@@ -1,0 +1,15 @@
+#En la siguiente matriz, el cuarto elemento siempre es la suma de los tres anteriores.
+#Utilizando la indexación corrige las listas que no cumplan esta condición.
+
+matriz = [
+    [1,1,1,3],
+    [2,2,2,7],
+    [3,3,3,9],
+    [4,4,4,13]
+]
+
+matriz[1][-1] = sum (matriz[1][:-1])
+
+matriz[-1][-1] = sum (matriz[-1][:-1])
+
+print(matriz)

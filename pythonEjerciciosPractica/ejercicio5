@@ -1,0 +1,12 @@
+#¿Podes identificar el error en el siguiente código?
+#media = num_1 + num_2 + num_3 / 3
+
+num_1 = 4
+num_2 = 3
+num_3 = 3
+
+
+
+media = (num_1 + num_2 + num_3) / 3
+
+print("El promedio es ", media)
