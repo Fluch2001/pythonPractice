@@ -1,0 +1,21 @@
+#Realiza un programa que lea dos numeros por teclado y permita elegir entre 3 opciones en un menú
+# Mostrar la suma de dos números
+# Mostrar la resta de dos numeros (el primero menos el segundo)
+# Mostrar la multiplicación de dos numeros
+
+numeroUno = float(input("Ingrese un numero"))
+numeroDos = float(input("Ingrese otro numero"))
+
+print("[1] ¿Desea sumar 2 numeros?")
+print("[2] ¿Desea restar 2 numeros?")
+print("[3] ¿Desea multiplicar 2 numeros?")
+
+opcion = input("Ingrese una opcion \n ")
+
+
+if (opcion == "1"):
+    print(f"El resultado de la suma entre {numeroUno} y {numeroDos} es: {numeroUno + numeroDos}")
+elif (opcion == "2"):
+    print(f"La resta entre {numeroUno} y {numeroDos} es: {numeroUno - numeroDos}")
+elif (opcion == "3"):
+    print(f"La multiplicación entre {numeroUno} y {numeroDos} es: {numeroUno * numeroDos}")

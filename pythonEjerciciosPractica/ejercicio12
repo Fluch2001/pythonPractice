@@ -1,0 +1,10 @@
+#Realiza un programa que pregunte al usuario cuantos numeros quiere introducir.
+#Luego debe leer todos los numeros y obtener la media aritmetica
+
+cantidadNumeros = int(input("¿Cuantos numeros queres escribir?"))
+sumaNumeros = 0
+
+for numeros in range(cantidadNumeros):
+    sumaNumeros+=float(input("\n Introduce un numero: \n "))
+
+print(f"\n Se han introducido {cantidadNumeros} de números que en total suman {sumaNumeros}. \n La media aritmética es de: {sumaNumeros / cantidadNumeros} ")

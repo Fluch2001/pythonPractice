@@ -1,0 +1,18 @@
+#Dada una lista de strings, haga un programa que devuelva:
+#El número de string que tienen una longitud de 2 o más caracteres, y cuyo primer y ultimo caracter sean iguales.
+#Una lista nueva con solo estos strings
+
+
+
+listaUno = ['cafe', 'botella', 'papel', 'correr', 'entrenar', 'jugar', 'apalancada', 'rotor', 'aza']
+listaDos = []
+
+sumaPalindromo = 0
+
+for palabra in listaUno:
+    if(len(palabra) >= 2 and (palabra[0] == palabra[-1])):
+        sumaPalindromo += 1
+        listaDos.append(palabra)
+
+      
+print(f"la cantidad de palíndromos que hay es de {sumaPalindromo} y la lista que la conforma son: {listaDos}")

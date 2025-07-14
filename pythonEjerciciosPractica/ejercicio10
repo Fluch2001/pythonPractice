@@ -1,0 +1,9 @@
+#Realiza un programa que pida un numero impar. Si el usuario no ingresa un numero impar, debe repetirse el proceso hasta que ingrese uno valido.
+
+while True:
+    numeroIngresado = int(input("Ingrese un número impar a continuación: "))
+    if numeroIngresado % 2 != 0:
+        print(f"Gracias, ingresaste el número impar {numeroIngresado}")
+        break
+    else:
+        print("El número ingresado no es impar. Intenta nuevamente.")
