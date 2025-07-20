@@ -12,8 +12,12 @@ def hacer_sonido(animal):
 gato = Gato()
 perro = Perro()
 
+
+#Forma uno de polimorfismo:
 print(gato.sonido())
 print(perro.sonido())
 
-hacer_sonido(perro)
+#Forma dos de polimorfismo:
 hacer_sonido(gato)
+hacer_sonido(perro)
+

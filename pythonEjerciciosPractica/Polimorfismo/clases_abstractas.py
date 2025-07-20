@@ -30,11 +30,10 @@ class Trabajador(Persona):
         print(f"Actualmente estoy trabajando en el rubro de: {self.actividad}")
 
 
-# Ahora sí funciona
 francisco = Estudiante("Francisco", 23, "Masculino", "Programación")
 francisco.presentarse()
 francisco.trabajar()
 
-diego = Estudiante("Diego", 20, "Masculino", "Programación")
+diego = Trabajador("Diego", 20, "Masculino", "Programación")
 diego.presentarse()
 diego.trabajar()
