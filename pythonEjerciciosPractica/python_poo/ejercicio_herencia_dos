@@ -1,0 +1,37 @@
+#---------------------------------------------------------------------------------------------------------------------------#
+
+#Ejercicio dos
+
+#Crear tres clases "Animal", "Mamífero", "Ave". 
+#La clase "Animal" debe tener un método llamado "Comer".
+#La clase "Mamífero" debe tener un método llamado "Amamantar".
+#La clase "Ave" debe tener un método llamado "Volar".
+
+#Crear una clase "Murcielago" que herede de "Mamífero" y "Ave" en ese orden. Por lo tanto debe ser capaz de "Amamantar" y "Volar" además de "Comer".
+
+#Jugar con el orden de herencia de la clase "Murcielago" y observar como cambia el MRO y el comportamiento de los métodos al usar super().
+
+
+class Animal:
+    def comer(self):
+        print("El animal está comiendo.")
+
+
+class Ave(Animal):
+    def volar(self):
+        print("El animal está volando.")
+
+
+class Mamifero(Animal):
+    def amamantar(self):
+        print("El animal está amamantando.")
+
+class Murcielago(Mamifero, Ave):
+    pass
+
+murcielago = Murcielago()
+murcielago.comer()
+murcielago.amamantar()
+murcielago.volar()
+
+print(Murcielago.mro())
