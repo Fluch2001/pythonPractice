@@ -3,7 +3,7 @@
 # Este proyecto busca aplicar varios aspectos, POO, módulos, API, analisis de datos, etc.
 import openai
 
-openai.api_key = "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"
+openai.api_key = "sk-proj-apikey"
 system_rol = '''Vas a simular ser un analizador de sentimientos. Voy a escribirte mensajes y quiero que lo analices y me des una respuesta con al menos 1 caracter y maximo 4 caracteres, solo respuestas numericas. donde -1 es negatividad maxima y 1 es positividad maxima. 0 es neutral. (Podes responder solo con int o float)'''
 
 mensajes = [{"role": "system", "content": system_rol}]
